@@ -72,9 +72,9 @@
 
    <img src="Assets/xcode5.png" width="400" height="200">  <img src="Assets/xcode6.png" width="400" height="200">
 
- 6. Open the  `AppDelegate.swift` file and add values for the following ,
+ 6. Open the  `bluemixCredentials.plist` file and add values for the following ,
 
-   <img src="Assets/xcode7.png" width="400" height="200">
+   <img src="Assets/plist.png" width="500" height="200">
 
  8. Build the project.
 
