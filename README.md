@@ -12,10 +12,13 @@
   * Xcode 8.+
 
 ## Create Following Bluemix services
-    Go to https://console.ng.bluemix.net and Log in. Click on [Catalog](https://console.ng.bluemix.net/catalog/) on the top bar. On the left pane click on `Boiler Plates` below Apps.
-  1. Create [MobileFirst service starter] app. This will have `Push notification service`.
+   
+   Go to https://console.ng.bluemix.net and Log in. Click on [Catalog](https://console.ng.bluemix.net/catalog/) on the top bar. On the left pane click on `Boiler Plates` below Apps.
 
-        <img src="Assets/boilerplate.png" width="300" height="150">
+
+  1. Create a `Push notification service`.
+
+        <img src="Assets/push.png" width="300" height="150">
 
   2. Click on [Catalog](https://console.ng.bluemix.net/catalog/) on the top bar. On the left pane click on `Watson` below `Services`.Create a `Watson Text to speech` service.
 
