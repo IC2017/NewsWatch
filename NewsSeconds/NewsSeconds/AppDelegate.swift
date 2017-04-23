@@ -57,6 +57,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate,AVAudioPlayerDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
          doIt = false
+        
+        
+        
+        if let path = Bundle.main.path(forResource: "bluemixCredentials", ofType: "plist"), let dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
+            // use swift dictionary as normal
+            
+            whiskAccessKey = dict["whiskAccessKey"] as! String;
+            whiskAccessToken = dict["whiskAccessToken"] as! String;
+            whiskActionName = dict["whiskActionName"] as! String;
+            whiskNameSpace = dict["whiskNameSpace"] as! String;
+            pushAppGUID = dict["pushAppGUID"] as! String;
+            pushAppClientSecret = dict["pushAppClientSecret"] as! String;
+            pushAppRegion = dict["pushAppRegion"] as! String;
+            watsonTextToSpeachUsername = dict["watsonTextToSpeachUsername"] as! String;
+            watsonTextToSpeachPassword = dict["watsonTextToSpeachPassword"] as! String;
+            newsAPIKey = dict["newsAPIKey"] as! String;
+        }
 
         UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
         UserDefaults.standard.set("", forKey: "newsURL")

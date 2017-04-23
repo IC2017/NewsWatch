@@ -29,6 +29,7 @@
 		1456BE571E68A6D100060546 /* MyDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456BE561E68A6D100060546 /* MyDropDownCell.swift */; };
 		14774C0C1E70318D00B5CC97 /* new1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14774C0B1E70318D00B5CC97 /* new1.png */; };
 		14E664631E69E3040061E146 /* sirens.wav in Resources */ = {isa = PBXBuildFile; fileRef = 14E664621E69E3040061E146 /* sirens.wav */; };
+		185C93EA1EACE9060077462E /* bluemixCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185C93E91EACE9060077462E /* bluemixCredentials.plist */; };
 		579BEAEEDE451F32A4A32F7A /* Pods_NewsSeconds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB43D2402E2C6F6F86B418A5 /* Pods_NewsSeconds.framework */; };
 		ACFE6841338C343C0809E7CB /* Pods_NotificationInterceptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4DEA553A0E735CA2FEA3CE /* Pods_NotificationInterceptor.framework */; };
 /* End PBXBuildFile section */
@@ -110,6 +111,7 @@
 		14774C0B1E70318D00B5CC97 /* new1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new1.png; sourceTree = "<group>"; };
 		14E664621E69E3040061E146 /* sirens.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sirens.wav; sourceTree = "<group>"; };
 		1778708D22BFA1334FF4FE22 /* Pods-NewsSeconds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsSeconds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsSeconds/Pods-NewsSeconds.debug.xcconfig"; sourceTree = "<group>"; };
+		185C93E91EACE9060077462E /* bluemixCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bluemixCredentials.plist; sourceTree = "<group>"; };
 		654F47173889857CB501D5E6 /* Pods-NotificationInterceptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationInterceptor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationInterceptor/Pods-NotificationInterceptor.debug.xcconfig"; sourceTree = "<group>"; };
 		8F3D1E706BEEBF8D486AE565 /* Pods-NewsSeconds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsSeconds.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsSeconds/Pods-NewsSeconds.release.xcconfig"; sourceTree = "<group>"; };
 		CD385A6F4A9160CDEC86BC3C /* Pods-NotificationInterceptor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationInterceptor.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationInterceptor/Pods-NotificationInterceptor.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		1456BE1B1E67F4BD00060546 = {
 			isa = PBXGroup;
 			children = (
+				185C93E91EACE9060077462E /* bluemixCredentials.plist */,
 				14774C0B1E70318D00B5CC97 /* new1.png */,
 				1456BE261E67F4BD00060546 /* NewsSeconds */,
 				1456BE3B1E67F4BD00060546 /* NewsSecondsTests */,
@@ -404,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1456BE321E67F4BD00060546 /* LaunchScreen.storyboard in Resources */,
+				185C93EA1EACE9060077462E /* bluemixCredentials.plist in Resources */,
 				1456BE2F1E67F4BD00060546 /* Assets.xcassets in Resources */,
 				14774C0C1E70318D00B5CC97 /* new1.png in Resources */,
 				1456BE541E68A68200060546 /* DropDownCell.xib in Resources */,
