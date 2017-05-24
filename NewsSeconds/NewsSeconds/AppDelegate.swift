@@ -247,7 +247,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,AVAudioPlayerDelegate {
         let subtitle = payLoadAlert.value(forKey: "body") as! String;
         let alert = messageValue
             
-            
             let watsonMessage = "\(title), \(subtitle), \(alert)"
                 do {
                     try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, with: .duckOthers)
