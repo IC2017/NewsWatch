@@ -12,7 +12,7 @@
   * Xcode 8.+
 
 ## Create Following Bluemix services
-   
+
    Go to https://console.ng.bluemix.net and Log in. Click on [Catalog](https://console.ng.bluemix.net/catalog/) on the top bar. On the left pane click on `Boiler Plates` below Apps.
 
 
@@ -51,7 +51,7 @@
 
 ## Set Up iOS app
 
- Point the terminal to `NewsSeconds` folder and do `pod install`. This will add Cocoapod dependencies to the app.
+ Point the terminal to `NewsSeconds` folder and do `pod install` and `carthage update`. This will add Cocoapod dependencies and carthage dependencies to the app.
 
  Follow the below steps,
 
